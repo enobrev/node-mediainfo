@@ -1,0 +1,18 @@
+{
+    "author": "Mark Armendariz <src@enobrev.com> (http://enobrev.com/)",
+    "name": "mediainfo",
+    "main": "index",
+    "description": "Use mediainfo to obtain info about a media file",
+    "version": "0.1.0",
+    "homepage": "http://enobrev.com/",
+    "repository": {
+    "url": ""
+    },
+    "main" : "./lib/mediainfo",
+    "directories" : {
+        "lib": "./lib"
+    },
+    "dependencies": {
+        "xml2js": ">=0.1.9"
+    }
+}
