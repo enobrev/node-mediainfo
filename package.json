@@ -6,7 +6,8 @@
     "version": "0.1.0",
     "homepage": "http://enobrev.com/",
     "repository": {
-    "url": ""
+        "type": "git",
+        "url": "http://github.com/enobrev/node-mediainfo.git"
     },
     "main" : "./lib/mediainfo",
     "directories" : {
