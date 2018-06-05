@@ -1,0 +1,12 @@
+Source: node-mediainfo
+Section: web
+Priority: extra
+Maintainer: Fastsociety Ops <ops@fastsociety.com>
+Build-Depends: debhelper (>= 8.0.0), nodejs, npm
+Standards-Version: 3.9.2
+Homepage: https://github.com/FastSociety/node-mediainfo
+
+Package: node-mediainfo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, mediainfo
+Description: Nodejs mediainfo module
