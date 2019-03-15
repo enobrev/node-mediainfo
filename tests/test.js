@@ -14,6 +14,8 @@ if (!fs.existsSync(sFile)) {
     process.exit(1);
 }
 
+MediaInfo.setCommandPath('/home/enobrev/src/fileinfo/bin/mediainfo');
+
 MediaInfo(sFile, function(oError, oInfo) {
     console.log('calling mediainfo for this file', sFile);
     if (oError) {
